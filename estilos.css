@@ -1,0 +1,216 @@
+
+:root {
+    --verde: #218C68;
+    --verde-claro: #D8F3E8;
+    --azul: #A8DADC;
+    --blanco: #FFFFFF;
+    --fondo: #F4FBF7;
+    --oscuro: #24443A;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--fondo);
+    color: var(--oscuro);
+}
+
+
+header {
+    background-color: var(--verde);
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: var(--azul);
+}
+
+
+.portada {
+    background-color: var(--verde-claro);
+    text-align: center;
+    padding: 90px 20px;
+}
+
+.portada h2 {
+    font-size: 35px;
+}
+
+.portada p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+
+.boton {
+    background-color: var(--verde);
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+button {
+    background-color: var(--verde);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.consejos {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.tarjeta {
+    background-color: white;
+    width: 220px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px #D5E7DE;
+}
+
+.icono {
+    font-size: 45px;
+}
+
+
+.alimentacion {
+    background-color: var(--azul);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.comida {
+    background-color: white;
+    width: 200px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+
+.ejercicio {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+
+.contacto {
+    background-color: var(--verde-claro);
+    text-align: center;
+    padding: 40px 20px;
+}
+
+footer {
+    background-color: var(--oscuro);
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+
+@media (max-width: 600px) {
+
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    .portada h2 {
+        font-size: 27px;
+    }
+
+    .tarjeta,
+    .comida {
+        width: 85%;
+    }
+}
+
+/* PALETA DE COLORES */
+.colores {
+    background-color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.colores h2 {
+    margin-bottom: 15px;
+}
+
+.colores > p {
+    margin-bottom: 30px;
+}
+
+.color-card {
+    background-color: var(--fondo);
+    width: 200px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px #D5E7DE;
+}
+
+.muestra {
+    width: 100%;
+    height: 70px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.verde {
+    background-color: #218C68;
+}
+
+.verde-claro {
+    background-color: #D8F3E8;
+}
+
+.azul {
+    background-color: #A8DADC;
+}
+
+.blanco {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+}
+
+.oscuro {
+    background-color: #24443A;
+}
+
+.color-card h3 {
+    margin-bottom: 8px;
+}
+
+.color-card p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
